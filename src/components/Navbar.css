@@ -1,0 +1,166 @@
+.nav-menu {
+  width: 250px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  border-right: 3px #c5977e solid;
+  overflow: hidden;
+  transition: all;
+  background-color:#000
+}
+
+.nav-menu-items.active::-webkit-scrollbar {
+  width: 0px; /* ширина полосы прокрутки */
+}
+
+.nav-menu-items::-webkit-scrollbar {
+  width: 0px; /* ширина полосы прокрутки */
+}
+
+.nav-menu.active {
+  width: 75px;
+  left: 0;
+  overflow-y: auto;
+}
+
+.log-side{
+  width: 70px;
+  height: 70px;
+}
+
+.nav-text {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 8px 0px 8px 8px;
+  list-style: none;
+  height: 60px;
+  background-color:#000 ;
+}
+
+.nav-text a {
+  text-decoration: none;
+  color: #c5977e;
+  font-size: 18px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  border-radius: 4px;
+  background-color:#000
+}
+
+.nav-menu-items {
+  width: 100%;
+  background-color:#000;
+  overflow-y: auto;
+}
+
+.nav-menu-items.active {
+  max-height: 85%;
+  overflow-y: auto;
+}
+
+.navbar-toggle {
+  background-color: #000;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 3px #d3a188 solid;
+}
+
+span{
+  margin-left: 16px;
+  background-color:#000
+}
+
+.username {
+  margin-left: 16px;
+  color: #c5977e;
+  background-color:#000
+}
+
+.active-icon{
+  font-Size: 2rem ;
+  background-color: #000;
+}
+
+.menu-bars{
+  background-color: #000;
+}
+
+/* Media queries for responsive design */
+
+/* For tablets and larger phones */
+@media (max-width: 960px) {
+  .nav-menu {
+    width: 200px;
+  }
+  .nav-menu.active {
+    width: 65px;
+    left: 0;
+    
+  }
+  .active-icon{
+    font-Size: 1.7rem ;
+  }
+  .nav-text a {
+    padding: 0 auto;
+    margin: 0 auto;
+  }
+  .nav-text {
+    padding: 0px;
+    height: 55px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-menu {
+    width: 190px;
+  }
+  .nav-menu.active {
+    width: 60px;
+    left: 0;
+    
+  }
+  .active-icon{
+    font-Size: 1.5rem ;
+  }
+  .nav-text a {
+    padding: 0 auto;
+    margin: 0 auto;
+  }
+  .nav-text {
+    padding: 0px;
+    height: 50px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 576px) {
+  .nav-menu {
+    width: 190px;
+  }
+
+  .nav-menu.active {
+    width: 50px;
+    left: 0;
+  }
+  .active-icon{
+    font-Size: 1.1rem ;
+  }
+  .nav-text a {
+    padding: 0 auto;
+  }
+  .nav-text {
+    padding: 0px auto;
+    height: 50px;
+  }
+}

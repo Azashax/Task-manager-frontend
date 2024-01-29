@@ -1,0 +1,294 @@
+.tbody-dashboard{
+    overflow-y: auto;
+    max-height: 90%;
+}
+
+.tbody-dashboard tr{
+    overflow-y: auto;
+    max-height: 90%;
+}
+
+.table-dashboard{
+    width: 90%;
+    margin: 10px auto 0 auto;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+
+.table-dashboard th{
+    background-color: #000;
+    color: #c48665;
+    font-size: 1.2rem;
+}
+
+.table-dashboard td, .table-dashboard th {
+    padding: 8px 5px;
+    text-align: center;
+    font-size: 16px;
+    
+}
+
+.table-dashboard tr:nth-child(even) {
+    background-color: #0000007e; 
+}
+
+
+.open div{
+    margin: 0 auto;
+    color: white;
+    background-color: grey;
+    padding: 4px 2px;
+}
+
+.correcting div{
+    margin: 0 auto;
+    color: white;
+    background-color: orange;
+    padding: 4px 2px;
+}
+
+.complete div{
+    margin: 0 auto;
+    color: white;
+    background-color: yellow;
+    padding: 4px 2px;
+}
+
+.in-progress div{
+    margin: 0 auto;
+    color: white;
+    background-color: blue;
+    padding: 4px 2px;
+}
+
+.checked div{
+    margin: 0 auto;
+    color: white;
+    background-color: rgb( 238, 94, 153 );
+    padding: 4px 2px;
+}
+
+.waiting div{
+    margin: 0 auto;
+    color: white;
+    background-color: red;
+    padding: 4px 2px;
+}
+
+
+
+
+
+.open-status span{
+    margin: 0 auto;
+    color: white;
+    background-color: grey;
+    padding: 4px 10px;
+}
+
+.open-status p{
+    color: white;
+    padding: 4px 5px 0 10px;
+    width: 20px;
+}
+
+.correcting-status span{
+    margin: 0 auto;
+    color: white;
+    background-color: orange;
+    padding: 4px 10px;
+}
+.correcting-status p{
+    color: white;
+    padding: 4px 5px 0 10px;
+    width: 20px;
+}
+
+.complete-status span{
+    margin: 0 auto;
+    color: white;
+    background-color: yellow;
+    padding: 4px 10px;
+}
+.complete-status p{
+    color: white;
+    padding: 4px 5px 0 10px;
+    width: 20px;
+}
+
+.in-progress-status span{
+    margin: 0 auto;
+    color: white;
+    background-color: blue;
+    padding: 4px 10px;
+}
+.in-progress-status p{
+    color: white;
+    padding: 4px 5px 0 10px;
+    width: 20px;
+}
+
+.checked-status span{
+    margin: 0 auto;
+    color: white;
+    background-color: rgb( 238, 94, 153 );
+    padding: 4px 10px;
+}
+.checked-status p{
+    color: white;
+    padding: 4px 5px 0 10px;
+    width: 20px;
+}
+
+.waiting-status span{
+    margin: 0 auto;
+    color: white;
+    background-color: red;
+    padding: 4px 10px;
+}
+.waiting-status p{
+    color: white;
+    padding: 4px 5px 0 10px;
+    width: 20px;
+}
+
+
+/* Пример использования flexbox для выравнивания */
+
+
+.table-dashboard th.project_assemble{
+    width: 100px;
+}
+
+.table-dashboard th.project_without{
+    width: 100px;
+}
+
+.table-dashboard th.project_with{
+    width: 100px;
+}
+
+.table-dashboard th.project_gltf{
+    width: 100px;
+}
+
+.table-dashboard th.project_upload{
+    width: 100px;
+}
+
+.table-dashboard th.pr_status{
+    width: 100px;
+}
+
+.table-dashboard th.pr_ex_status{
+    width: 100px;
+}
+
+.table-dashboard th.pr_name {
+    width: 300px; 
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+
+.dropdown-content a span {
+    display: block; /* Заставляет span вести себя как блочный элемент */
+    text-align: center; /* Центрирование текста по горизонтали */
+    margin: 0 auto; /* Автоматические отступы слева и справа для центрирования */
+    padding: 4px 10px; /* Отступы внутри элементов */
+    min-width: 90px; /* Минимальная ширина каждого span, чтобы у всех была одинаковая ширина */
+}
+
+.dropbtn {
+    /* background-color: #4CAF50; */
+    color: #d3a188;
+    padding: 4px;
+    font-size: 16px;
+    border: none;
+    background-color: #000; 
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.select-dashboard-filter{
+    gap: 10px;
+    display: flex;
+}
+
+/* .select-dashboard-filter select{
+    border: #c48665 1px solid;
+    display: block;
+    padding: 10px 10px 10px 10px ;
+    margin: 5px 0;
+    color: #d3a188;
+    background-color: #1d1d1d;
+} */
+
+.user-dropdown{
+    border: #c48665 1px solid;
+    display: block;
+    padding: 10px 10px 10px 10px ;
+    margin: 5px 0;
+    color: #d3a188;
+    background-color: #1d1d1d;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 5px 8px;
+    text-decoration: none;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    height: 40px; 
+    cursor: default;
+    box-shadow: -13px 11px 16px 0px rgba(255, 208, 0, 0.5);
+    background-color: #1d1d1d;
+}
+
+
+.dropdown-content a:hover {
+    cursor: default;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    color: #f19563;
+}
+
+.container {
+    margin: 0 0 0 5%;
+    display: block;
+}
+
+@media (max-width: 960px) {
+    .container {
+        margin: 0 0 0 8%;
+    }
+  }
+  
+@media (max-width: 768px) {
+    .container {
+      margin: 0 0 0 10%;
+    }
+  }
+  
+  
+@media (max-width: 576px) {
+    .container {
+        margin: 0 0 0 20%;
+    }
+  }
+  

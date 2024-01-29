@@ -1,0 +1,45 @@
+.btn-cre-reg{
+    display: block;
+    font-size: 1.5em;
+    border: 1px #c5977e solid;
+    text-decoration: none;
+    height: 30px!important;
+}
+.btn-cre-pr{
+    display: block;
+    font-size: 1.5em;
+    text-decoration: none;
+    border: 1px #c5977e solid;
+    height: 30px!important;
+}
+
+.div-search{
+    display: flex;
+    margin: 30px 5% 20px 5%;
+    justify-content: space-between;
+}
+
+
+.div-search-label {
+    font-size: 1.5em;
+    color: #c5977e;
+    display: block;
+    margin-bottom: 10px;
+}
+
+
+/* create-user */
+
+.div-search-input {
+    display: block;
+    padding: 11px 10px;
+    font-size: 1.5em;
+    border: 1px #c5977e solid;
+    color: #c5977e;
+    background-color: #1d1d1d;
+}
+
+.div-btn-pr{
+    display: flex;
+}
+

@@ -1,0 +1,182 @@
+.complete-grid{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    gap: 20px;
+    }
+    .complete-grid-block{
+        width: 300px;
+        padding: 6px 10px;
+        height: 230px;
+        background-color: #000;
+        border: 1px #c48665 solid;
+    }
+    .complete-grid-block_check{
+        width: 270px;
+        padding: 6px 10px;
+        height: 255px;
+        background-color: #000;
+        border: 1px #c48665 solid;
+    }
+
+.block-name-project{
+    width: 100%;
+    word-wrap: break-word;
+    text-decoration: none;
+    background-color: #000;
+}
+
+.complete-content .p{
+    background-color: #000;
+    color: #d3a188;
+}
+.complete-content{
+    background-color: #000;
+}
+
+.hight-60{
+    height: 60px;
+}
+
+.complete-btn {
+    padding: 10px 20px;
+    margin: 0 auto;
+    color: #fff;
+    border: 1px #c48665 solid;
+    cursor: pointer;
+    background-color: #1d1d1d;
+
+}
+
+.complete-btn:hover {
+    box-shadow: 0 0 5px 1px #d3a188; 
+}
+  
+.complete-div-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+}
+
+.complete-div-btn-sel {
+    display: flex;
+    justify-content: center;
+}
+
+.complete-div-sel{
+    background-color: #000;
+    color: #d3a188;
+    border: 1px #c48665 solid;
+
+}
+
+.name-user{
+    font-size: 1.3rem;
+    color: #c48665;
+    margin: 7px 0;
+}
+
+.name-type{
+    font-size: 1.1rem;
+    padding: 5px;
+    border: 1px #c48665 solid;
+    width: 70px;
+    text-align: center;
+    display: block;
+    margin-right: 10px;
+    margin-bottom: 7px;
+}
+
+.name-status{
+    font-size: 1.1rem;
+    margin: 8px 0;
+    width: 120px;
+    text-align: center;
+    display: block;
+}
+
+.name-date{
+    font-size: 1.1rem;
+    padding: 5px;
+    width: 100px;
+    margin-left: 10px;
+    text-align: center;
+    display: block;
+}
+
+.hr-c{
+    border-color: #c48665; 
+    margin: 10px 0;
+}
+.complete-type-date{
+    display: flex;
+    background-color: #000;
+    margin: 3px auto;
+}
+
+.complete-name-projects{
+    text-decoration: none;
+    color: #d3a188;
+    font-size: 20px;
+}
+
+
+.complete-name-projects:hover{
+    color: #df8859;
+}
+
+.bg-check{
+    display: block;
+    background-color: rgb( 238, 94, 153 )!important;
+    color: #ffffff!important;
+}
+.bg-cor{
+    display: block;
+    background-color: orange!important;
+    color: #ffffff!important;
+}
+
+.bg_in_prog{
+    display: block;
+    background-color: yellow!important;
+    color: #ffffff!important;
+    width: fit-content;
+}
+
+.mr-center{
+    margin: 0 auto;
+    background-color: #000;
+}
+
+/* Общие стили для .check-out */
+.check-out {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #d3a18883;
+    outline: none;
+    cursor: pointer;
+    background-color: black;
+    position: relative;
+}
+
+/* Стиль для отображения галочки при выборе радиокнопки */
+.check-out:checked::before {
+    content: '';
+    display: block;
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    border-radius: 50%;
+    background-color: rgb(255, 0, 0);
+}
+
+/* Стиль для отображения галочки при выборе радиокнопки */
+.check-out:checked::before {
+    opacity: 1;
+}

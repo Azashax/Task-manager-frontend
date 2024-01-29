@@ -1,0 +1,83 @@
+.grid-container-assemble {
+    display: grid;
+    grid-template-columns: auto;
+    width: 500px;
+    padding: 10px 5px;
+    grid-gap: 10px;
+    margin: auto;
+  }
+  .grid-item-assemble {
+    background-color: black;
+    border: 2px solid #d3a188;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 15px;
+    padding: 10px;
+  }
+
+  .h1_style_2{
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    --tw-text-opacity: 1;
+    color: #d3a188;
+    text-transform: uppercase;
+    margin-bottom: 0.6rem;
+    font-weight: inherit;
+    background-color: black;
+  }
+
+.grid_div_1{
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 400px;
+    padding: 10px 5px;
+    grid-gap: 10px;
+    margin: auto;
+    background-color: black;
+}
+
+.grid_div_10{
+  background-color: black;
+}
+.grid_div_2{
+  background-color: black;
+}
+
+
+/* styles.css */
+.radio-button {
+  position: relative;
+  padding-left: 30px; /* Позволяет оставить место для кастомного маркера */
+  cursor: pointer;
+  background-color: black;
+}
+
+.radio-button input[type="radio"] {
+  position: absolute;
+  opacity: 0; /* Скрываем стандартный радио-кнопку */
+  cursor: pointer;
+}
+
+.radio-button .custom-radio {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 22px;
+  width: 22px;
+  border: 2px solid #d3a188; /* Цвет поверхностных линий */
+  border-radius: 50%;
+}
+
+.radio-button input[type="radio"]:checked + .custom-radio::before {
+  content: '';
+  position: absolute;
+  top: 4px; /* Выравниваем маркер внутри круга */
+  left: 4px; /* Выравниваем маркер внутри круга */
+  height: 14px;
+  width: 14px;
+  background-color: #d3a188; /* Цвет внутреннего круга */
+  border-radius: 50%;
+  display: block;
+}
+

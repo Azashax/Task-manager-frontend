@@ -1,0 +1,19 @@
+
+.grid-container-upload{
+    display: grid;
+    grid-template-columns: auto;
+    width: 400px;
+    padding: 10px 5px;
+    grid-gap: 10px;
+    margin: auto;
+}
+.grid-item-upload {
+    background-color: black;
+
+    border: 2px solid #d3a188;
+
+    font-size: 30px;
+    text-align: center;
+    border-radius: 15px;
+    padding: 10px;
+}

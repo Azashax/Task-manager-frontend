@@ -1,0 +1,121 @@
+
+.medal-image{
+    width: 20px;
+    height: 20px;
+}
+
+.table-projects td, .table-projects th {
+    padding: 12px 15px;
+    text-align: center;
+    font-size: 16px;
+    border: none;
+}
+
+.table-projects {
+    width: 90%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    overflow-y: auto; /* Добавляем вертикальный скролл только для таблицы */
+    max-height: 90%;
+    color: #d3a188;
+}
+
+.table-projects th {
+    background-color: #000;
+    border: none;
+    font-size: 1.2rem;
+
+}
+
+.table-projects tbody:nth-child(odd) {
+    background-color: #0000007e;/* черный фон с прозрачностью 0.3 */
+}
+
+
+.margin-top{
+    margin-top: 30px;
+}
+
+.name-projects{
+    text-decoration: none;
+    color: #d3a188;
+}
+
+.name-projects:hover{
+    color: wheat;
+
+}
+
+.project_id {
+    width: 4%;
+}
+
+.project_name {
+    width: 30%;
+}
+
+.project_region {
+    width: 16%;
+}
+
+.project_build {
+    width: 10%;
+}
+
+.project_teg {
+    width: 9%;
+}
+
+.project_status {
+    width: 12%;
+}
+
+.project_ex_status {
+    width: 12%;
+}
+
+
+/*responsive*/
+
+
+
+  
+@media (max-width: 768px) {
+    .table-projects {
+      overflow-x: auto; /* Добавляем горизонтальный скролл */
+      overflow-y: auto; /* Добавляем вертикальный скролл */
+      max-height: 400px;
+    }
+
+  }
+  
+  
+@media (max-width: 576px) {
+    .table, .table tbody, .table tr, .table td{
+        display: block;
+        width: 100%;
+    }
+    .table tr{
+        margin-bottom:15px;
+    }
+    .table td{
+        text-align: right;
+        padding-left: 50%;
+        text-align: right;
+        position: relative;
+    }
+    .table td::before{
+        content: attr(data-label);
+        position: absolute;
+        left:0;
+        width: 50%;
+        padding-left:15px;
+        font-size:15px;
+        font-weight: bold;
+        text-align: left;
+    }
+
+  }
+  
+  
+  

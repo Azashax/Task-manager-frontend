@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.home,
+.reports,
+.products {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+/* Common styles for all screen sizes */
+::-webkit-scrollbar {
+  width: 5px; /* ширина полосы прокрутки */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #d3a188; /* цвет полосы прокрутки */
+  border-radius: 4px; /* скругление углов полосы прокрутки */
+}
+
+::-webkit-scrollbar-track {
+  background-color: #00000000;
+}
+
+.title{
+  text-decoration: none;
+  margin-bottom: 30px;
+  font-size: 2.3rem;
+  color: #c4815f;
+  
+}
+.div-title{
+  margin:20px 0;
+  text-align: center;
+}
+
+/* .title:hover{
+  color: #d3a188;
+} */

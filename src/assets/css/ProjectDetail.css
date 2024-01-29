@@ -1,0 +1,109 @@
+.tb-link{
+    width: 100%;
+    padding: 8px 10px;
+    font-size: 1.5em;
+    margin: 8px 0;
+    border: none
+}
+.scrollable-text {
+    padding: 10px; 
+    word-wrap: break-word;
+    width: 200px;
+}
+
+.telegram_link{
+    text-decoration:none;
+    color:  #c48665 ;
+}
+
+.telegram_link:hover{
+    color: wheat;
+}
+
+.update-project{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.update-project-button{
+    padding: 8px 2em;
+    font-size: 1.5em;
+    color: #d3a188;
+    border: 1px #c48665 solid;
+    background-color: #000;
+}
+
+.input-project-s{
+    padding: 8px 10px;
+    font-size: 1.5em;
+    margin: 8px 5px;
+    color: #d3a188;
+    border: 1px #c48665 solid;
+    background-color: #000;
+}
+.select-project-s{
+    padding: 8px 10px;
+    font-size: 1.5em;
+    margin: 8px 5px;
+    color: #d3a188;
+    border: 1px #c48665 solid;
+    background-color: #000;
+}
+.label-project-s{
+    font-size: 1.5em;
+    color: #d3a188;
+}
+
+
+/*responsive*/
+.table-input-desk{
+    padding: 0 0;
+    margin: 0 0;
+}
+.table-input-desk-t{
+    /*padding: 5px;*/
+    min-height: 100px;  /* Minimum height in pixels */
+    max-height: 100px;  /* Maximum height in pixels */
+    min-width: 200px;   /* Minimum width in pixels */
+    max-width: 200px;  
+    color: #c48665; /* Maximum width in pixels */
+}
+
+.button-deck{
+    background-color: #000;
+    border: none;
+    color: #d3a188;
+    padding: 7px 15px;
+    border: 1px #d3a188 solid;
+}
+
+.table-task {
+    width: 90%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    overflow-y: auto; /* Добавляем вертикальный скролл только для таблицы */
+    max-height: 90%;
+    color: #d3a188;
+}
+
+.table-task th {
+    border: none;
+    font-size: 1.2rem;
+}
+
+.table-task td, .table-task th {
+    padding: 12px 15px;
+    text-align: center;
+    font-size: 14px;
+    border: none;
+}
+
+.table-task tr:nth-child(odd) {
+    background-color: #0000007e; 
+}
+
+.scrolled{
+    max-height: 100vh; /* или желаемое значение */
+    overflow-y: auto;
+}
+

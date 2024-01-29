@@ -1,0 +1,53 @@
+/* LoginPage.css */
+.form {
+    width: 400px;
+    padding: 20px;
+    /* text-align: center; */
+    margin: 100px auto;
+    border: 2px solid #d3a188;
+    background-color: black;
+
+}
+
+.form input,
+.form input[type="submit"] {
+    margin-top: 20px;
+    display: block; 
+    margin-bottom: 10px;
+}
+
+.form input[type="submit"] {
+    cursor: pointer;
+}
+
+.form input[type="submit"]:hover {
+    box-shadow: 0 0 5px 1px #d3a188; 
+}
+
+.form input {
+    width: 60%; /* Занимать всю ширину контейнера */
+    margin: 0 auto; /* Сброс внешних отступов */
+    padding: 10px;
+    border: 2px solid #d3a188;
+    background-color: transparent;
+
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.form input[type="submit"] {
+    width: 40%; /* Занимать всю ширину контейнера */
+    padding: 10px 15px;
+    border: 1px solid #d3a188;
+    color: #d3a188;
+    background-color: transparent;
+}
+
+.label-style {
+    margin-top: 20px;
+    font-size: 1.4rem;
+    color: #d3a188;
+    display: block;
+    margin-bottom: 1rem;
+    background-color: black;
+}

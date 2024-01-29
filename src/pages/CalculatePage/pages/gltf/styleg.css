@@ -1,0 +1,18 @@
+.grid-container-gltf{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width: 1000px;
+  padding: 10px 5px;
+  grid-gap: 10px;
+  margin: auto;
+}
+.grid-item-gltf {
+  background-color: black;
+
+  border: 2px solid #d3a188;
+
+  font-size: 30px;
+  text-align: center;
+  border-radius: 15px;
+  padding: 10px;
+}

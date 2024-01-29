@@ -1,0 +1,42 @@
+.teams{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px auto;
+    gap: 20px;
+    justify-content: flex-start;
+  }
+
+.team{
+    width: 420px;
+    /* border:solid 1px; */
+    color: #d3a188;
+    font-size: 1.2rem;
+    text-align: center;
+}
+.team h2{
+    background-color: black;
+    padding: 10px 7px;
+}
+.team div p{
+    padding: 10px 7px;
+}
+.team-employee{
+    color: #d3a188;
+    text-align: center;
+}
+.btn-create-team{
+    background-color: #1d1d1d;
+    color: #d3a188;
+    border: 1px solid #c48665;
+    padding: 10px 20px;
+    text-align: center;
+    margin: 30px auto;
+    width: 300px;
+    justify-content: center;
+    display: flex;
+}
+.btn-create-team:hover{
+    box-shadow: 0 5px 5px 0px rgba(255, 145, 0, 0.5);
+    cursor: pointer;
+}

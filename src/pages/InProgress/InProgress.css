@@ -1,0 +1,33 @@
+.grid-blog{
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: flex-start;
+  }
+  .grid-blog-block{
+      justify-content: center;
+      margin: 20px 5px;
+      padding: 6px 8px;
+      background-color: #000;
+      border: 1px #d3a188 solid;
+      height: fit-content;
+      width: 230px;
+  }
+
+.grid-blog-user{
+  background-color: #000;
+  justify-content: center;
+  display: block;
+}
+
+.in-progress-grid-block{
+  width: 90%;
+  justify-content: center;
+  margin: 10px auto;
+  padding: 6px 12px;
+  background-color: #000;
+}
+.task-in-progress{
+  background-color: #000;
+}

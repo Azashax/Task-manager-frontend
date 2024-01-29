@@ -1,0 +1,72 @@
+.tb-link{
+    width: 100%;
+    padding: 8px 10px;
+    font-size: 1.5em;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+.label-project-s{
+    font-size: 1.5em;
+    width: 100%;
+}
+.update-project input[type=text] {
+    width: 100%;
+    padding: 8px 10px;
+    font-size: 1.5em;
+    margin: 8px 5px;
+    box-sizing: border-box;
+
+}
+
+.block{
+    width: 100%;
+    display: block;
+    margin: 10px 10px;
+
+}
+
+.update-project-button{
+    padding: 8px 2em;
+    font-size: 1.5em;
+}
+.update-project-div-b{
+    width: 9%;
+    margin: 0 auto;
+}
+.select-project-s{
+    width: 100%;
+    padding: 8px 10px;
+    font-size: 1.5em;
+    margin: 8px 5px;
+}
+/*responsive*/
+
+@media(max-width: 500px){
+    .table thead{
+        display: none;
+    }
+
+    .table, .table tbody, .table tr, .table td{
+        display: block;
+        width: 100%;
+    }
+    .table tr{
+        margin-bottom:15px;
+    }
+    .table td{
+        text-align: right;
+        padding-left: 50%;
+        text-align: right;
+        position: relative;
+    }
+    .table td::before{
+        content: attr(data-label);
+        position: absolute;
+        left:0;
+        width: 50%;
+        padding-left:15px;
+        font-size:15px;
+        font-weight: bold;
+        text-align: left;
+    }
+}

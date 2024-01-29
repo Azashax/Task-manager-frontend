@@ -1,0 +1,74 @@
+.grid-containe_villa {
+    display: block;
+    margin: 0 auto;
+    width: 800px;
+    padding: 10px 5px;
+    grid-gap: 50px;
+  }
+  .grid-item_villa {
+    background-color: black;
+    border: 2px solid #d3a188;
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 15px;
+    padding: 10px;
+  }
+
+.input-style_1 {
+  width: 100px;
+  display: block;
+  margin: auto;
+  padding: 6px;
+  border: 2px solid #d3a188;
+  background-color: black;
+  color: aliceblue;
+  font-size: 20px;
+  border-radius:10px;
+  margin-left: 5px;
+
+}
+
+
+.select-style {
+    width: 8em;
+    padding: 10px;
+    border: 2px solid #d3a188;
+    background-color: transparent;
+    border-radius:10px;
+    margin: 5px 5px 5px 0px;
+    font-size: 12px;
+    --tw-text-opacity: 1;
+    color: #d3a188;
+    text-transform: uppercase;
+    font-weight: inherit;
+    background-color: black!important;
+    }
+    .select-style option {
+        background-color: black;
+        border: 2px solid #d3a188;
+
+
+        font-size: 12px;
+        --tw-text-opacity: 1;
+
+        margin-bottom: 0.6rem;
+        font-weight: inherit;
+    }
+
+.label-style {
+    text-align: center;
+    font-size: 18px;
+    --tw-text-opacity: 1;
+    color: #d3a188;
+    display: block;
+    margin-bottom: 0.6rem;
+    font-weight: inherit;
+    background-color: black!important;
+}
+
+@media (min-width: 600px) and (max-width: 880px) {
+    .grid-containe_villa {
+      width: 500px;
+    }
+}

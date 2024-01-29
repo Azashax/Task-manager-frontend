@@ -1,0 +1,37 @@
+.date-storage {
+    background-color: #1d1d1d; /* Светло-серый фон */
+    color: #d3a188; /* Темно-серый текст */
+    border: 1px solid #d3a188; /* Тонкая граница */
+    padding: 3px 10px; /* Внутренние отступы */
+    font-size: 13px; /* Размер шрифта */
+  }
+.date-storage:hover {
+  background-color: #1d1d1d; /* Изменение фона при наведении */
+}
+.date-storage:focus {
+  border-color: #c48665; /* Изменение цвета границы при фокусе */
+  outline: none; /* Удаление стандартного контура */
+}
+.task-filters{
+  display:flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px auto;
+}
+.btn-reset-filter{
+  background-color: #1d1d1d;
+  color: #d3a188;
+  border: 1px solid #c48665;
+  padding: 0 10px;
+}
+.success-message{
+  background-color: black;
+  color: #c48665;
+  text-align: center;
+  border: #c48665 1px solid;
+  width: 300px;
+  position: fixed;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 1.3em;
+}
